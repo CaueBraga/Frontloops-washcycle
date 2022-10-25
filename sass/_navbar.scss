@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  justify-content: space-between;
+  max-width: 80%;
+
+  margin-left: 250px;
+
+  &__item {
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.navbar__header {
+  opacity: 1;
+  cursor: default;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.text {
+  color: white;
+  line-height: 30px;
+  font-size: 22px;
+  max-width: 40%;
+  margin-left: 250px;
+  margin-top: 25px;
+  font-weight: 700;
+}

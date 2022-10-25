@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.arrow {
+  padding: 50px;
+  background-color: white;
+  opacity: 0.4;
+  height: 60%;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+.main__boxes {
+  display: flex;
+  margin-bottom: -20px;
+}
+
+.box {
+  padding: 170px;
+}
